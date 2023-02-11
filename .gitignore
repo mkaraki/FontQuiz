@@ -1,0 +1,5 @@
+/questions/*
+!/questions/.htaccess
+/fonts/*
+!/fonts/.htaccess
+/_config.php
