@@ -66,7 +66,7 @@ if ($license !== $clicense) {
         <?= htmlentities(gmdate('Y-m-d', time())) ?>
     </div>
     <div class="mb-1">
-        <?= htmlentities(str_replace('%u', $exam['meta']['author'], T['CERT.SignedBy'])) ?>
+        <?= htmlentities(str_replace(['%u', '%a'], [$exam['meta']['author'], APP_NAME], T['CERT.SignedBy'])) ?>
     </div>
     <div class="bg-white text-white no-print">
         Certificate Hash: <?= $disphash ?>

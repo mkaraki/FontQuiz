@@ -9,7 +9,7 @@ define('LANG', array(
         'EXAM.Remain' => '残り',
         'CERT.Certificate' => '合格証書',
         'CERT.YouPassed' => '本書は %u が %1 試験に合格したことを証するものである。',
-        'CERT.SignedBy' => '署名者: %u',
+        'CERT.SignedBy' => '署名者: %a (%u の代理)',
     ),
     'en' => array(
         'VIEW.Active' => 'Active',
@@ -20,6 +20,6 @@ define('LANG', array(
         'EXAM.Remain' => 'Remain',
         'CERT.Certificate' => 'Certificate',
         'CERT.YouPassed' => 'This is to certify that %u was passed the %1 examination.',
-        'CERT.SignedBy' => 'Signed by %u',
+        'CERT.SignedBy' => 'Signed by %a on behalf of %u',
     )
 ));
